@@ -36,17 +36,22 @@ CUDA >= 10.0.130 (需要安装nvcc)
 
   创建环境
 
-​    $ conda create --name smr python=3.12
-
-$ conda activate smr
+```
+    $ conda create --name smr python=3.7
+    $ conda activate smr
+```
 
   安装Pytorch(或更高版本)
 
+```
 $ conda install pytorch==1.6.0 torchvision==0.7.0 cudatoolkit=10.2 -c pytorch
+```
 
   安装Kaolin
 
-​    $ git clone --recursive https://github.com/NVIDIAGameWorks/kaolin
+```
+    $ git clone --recursive https://github.com/NVIDIAGameWorks/kaolin
+```
 
 ​    cd C:\Users\Administrator\kaolin-master
 
@@ -90,9 +95,13 @@ python setup.py install
 
 ​    -bed1_mask.png /*bed1的mask*/
 
+![img](./README.asserts/clip_image002.jpg)
+
 #### 运行方法
 
-以管理员模式运行cmd，进入代码根目录下，运行 python train.py
+以管理员模式运行cmd，进入代码根目录下，运行 python train.py，类似以下图片
+
+![image-20240912112715313](./README.asserts/image-20240912112715313.png)
 
 ## 原模型链接
 
