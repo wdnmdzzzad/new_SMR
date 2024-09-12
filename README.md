@@ -95,13 +95,9 @@ python setup.py install
 
 ​    -bed1_mask.png /*bed1的mask*/
 
-![img](./README.asserts/clip_image002.jpg)
-
 #### 运行方法
 
-以管理员模式运行cmd，进入代码根目录下，运行 python train.py，类似以下图片
-
-![image-20240912112715313](./README.asserts/image-20240912112715313.png)
+以管理员模式运行cmd，进入代码根目录下，运行 python train.py
 
 ## 原模型链接
 
